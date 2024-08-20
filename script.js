@@ -74,7 +74,7 @@ function drawPaddle(paddle) {
 function drawBall() {
     context.beginPath();
     context.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-    context.fillStyle = "#f5a623";
+    context.fillStyle = "#ff0000";
     context.fill();
     context.closePath();
 }
